@@ -1,0 +1,8 @@
+openldap:
+  env:
+    LDAP_ORGANISATION: "D2iQ"
+    LDAP_DOMAIN: "d2iq.lab"
+  adminPassword: admin
+  configPassword: config
+  persistence:
+    enabled: true

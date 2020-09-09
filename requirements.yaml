@@ -1,0 +1,4 @@
+dependencies:
+- name: openldap
+  version: 1.2.5
+  repository: https://github.com/kubernetes/charts
