@@ -6,3 +6,11 @@ openldap:
   configPassword: config
   persistence:
     enabled: true
+  phpldapadmin:
+    enabled: true
+    ingress:
+      enabled: true
+      ingressClassName:
+      path: /
+    env:
+      PHPLDAPADMIN_LDAP_CLIENT_TLS_REQCERT: "never"
