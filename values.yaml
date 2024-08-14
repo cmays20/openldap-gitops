@@ -10,12 +10,10 @@ openldap:
     enabled: true
     ingress:
       enabled: true
-      hosts: 
-      - "phpldapadmin"
+      hosts: []
     env:
       PHPLDAPADMIN_LDAP_CLIENT_TLS_REQCERT: "never"
   ltb-passwd:
     ingress:
       enabled: true
-      hosts:
-      - "ltb-passwd"
+      hosts: []
