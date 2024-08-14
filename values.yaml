@@ -1,7 +1,7 @@
 openldap:
   env:
-    LDAP_ORGANISATION: "D2iQ"
-    LDAP_DOMAIN: "d2iq.lab"
+    LDAP_ORGANISATION: "Mays-Demo"
+    LDAP_DOMAIN: "mays-demo.com"
   adminPassword: admin
   configPassword: config
   persistence:
