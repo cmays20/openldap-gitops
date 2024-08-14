@@ -10,10 +10,12 @@ openldap:
     enabled: true
     ingress:
       enabled: true
-      hosts: []
+      hosts: 
+      - phpldapadmin.apps.mays-demo.sandbox2140.opentlc.com
     env:
       PHPLDAPADMIN_LDAP_CLIENT_TLS_REQCERT: "never"
   ltb-passwd:
     ingress:
       enabled: true
-      hosts: []
+      hosts: 
+      - ltb-passwd.apps.mays-demo.sandbox2140.opentlc.com
