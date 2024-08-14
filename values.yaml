@@ -10,7 +10,10 @@ openldap:
     enabled: true
     ingress:
       enabled: true
-      ingressClassName:
-      path: /
+      hosts: 
     env:
       PHPLDAPADMIN_LDAP_CLIENT_TLS_REQCERT: "never"
+  ltb-passwd:
+    ingress:
+      enabled: true
+      hosts:
